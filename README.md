@@ -1,5 +1,3 @@
-# Breast Cancer Grad-CAM
-
 ## Project Overview
 
 This project, developed for the 2024 Emory Health AI Bias Datathon, explores the use of Grad-CAM with ResNet to interpret how a model identifies breast cancer in mammogram images. By visualizing the model's focus areas, we provide insights into potential biases within the Emory EMBED dataset and the model's decision-making process.
