@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project, developed for the 2024 Emory Health AI Bias Datathon, explores the use of Grad-CAM with ResNet50 to interpret how a model identifies breast cancer in mammogram images. By visualizing the model's focus areas, we provide insights into potential biases within the Emory EMBED dataset and the model's decision-making process.
+This project, developed for the 2024 Emory Health AI Bias Datathon, explores the use of Grad-CAM with ResNet to interpret how a model identifies breast cancer in mammogram images. By visualizing the model's focus areas, we provide insights into potential biases within the Emory EMBED dataset and the model's decision-making process.
 
 ## Key Components
 
@@ -44,23 +44,27 @@ import pandas as pd
 import torch
 import matplotlib.pyplot as plt
 from PIL import Image
-
+```
 ## Setup
 
-1. **Clone the Repository:**
-git clone https://github.com/your-username/2024-Emory-Health-AI-Bias-Datathon.git
-cd 2024-Emory-Health-AI-Bias-Datathon
+1. **Clone the Repository**
+```bash
+   git clone https://github.com/your-username/2024-Emory-Health-AI-Bias-Datathon.git
+   cd 2024-Emory-Health-AI-Bias-Datathon
+```
 
 2. **Install Dependencies:**
-pip install tensorflow numpy pandas torch torchvision pillow matplotlib opencv-python requests tqdm ipython
+```bash
+  pip install tensorflow numpy pandas torch torchvision pillow matplotlib opencv-python requests tqdm ipython
+```
 
 3. **Run the Notebooks:**
-Launch Jupyter and open the desired notebook to reproduce the analyses.
+- Launch Jupyter and open the desired notebook to reproduce the analyses.
 
 # Results and Insights
 
 - **Bias Detection:** Grad-CAM visualizations highlight potential biases in model predictions, offering a window into areas that may require further scrutiny.
-- **Model Interpretation:** These visualizations enhance understanding of the ResNet50 model’s decision-making process, crucial for building trust in AI applications within healthcare.
+- **Model Interpretation:** These visualizations enhance understanding of the ResNet model’s decision-making process, crucial for building trust in AI applications within healthcare.
 
 # Contributions
 
